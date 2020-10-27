@@ -20,15 +20,15 @@ import hathorLib from '@hathor/wallet-lib';
  * . remove register/unregister token options;
  * . remove create new token option;
  */
-export const _IS_MULTI_TOKEN = true;
+export const _IS_MULTI_TOKEN = false;
 
 /**
  * Default token.
  *
  * Example config:
  * {
- *   name: 'YanCoin',
- *   symbol: 'YAN',
+ *   name: 'ND Coin',
+ *   symbol: 'NINAC',
  *   uid: '000003a3b261e142d3dfd84970d3a50a93b5bc3a66a3b6ba973956148a3eb824'
  * }
  */
