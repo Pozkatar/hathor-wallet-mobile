@@ -54,7 +54,7 @@ class WelcomeScreen extends React.Component {
       <SafeAreaView style={{ flex: 1 }}>
         <HathorHeader withLogo />
         <View style={this.style.container}>
-          <Text style={this.style.title}>{t`Welcome to Hathor Wallet!`}</Text>
+          <Text style={this.style.title}>{t`Welcome to ND Coin Wallet!`}</Text>
           <View>
             <TextFmt style={this.style.text}>
               {t`This wallet is connected to the **mainnet**.`}
@@ -65,8 +65,8 @@ class WelcomeScreen extends React.Component {
             </Text>
             <Text style={this.style.text}>
               {str2jsx(
-                t`For further information, check out our website |link:https://hathor.network/|.`,
-                { link: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link> }
+                t`For further information, check out our website |link:http://ninaduong.com/|.`,
+                { link: (x, i) => <Link key={i} href='http://ninaduong.com/'>{x}</Link> }
               )}
             </Text>
           </View>
