@@ -65,7 +65,7 @@ export class About extends React.Component {
 
           <Text style={this.style.title}>Hathor Labs</Text>
           <Text style={this.style.text}>
-            {t`This app is developed by Hathor Labs and is distributed for free.`}
+            {t`This app is developed by Nina Duong Haute Couture and is distributed for free.`}
           </Text>
 
           <TextFmt style={this.style.text}>
@@ -77,13 +77,13 @@ export class About extends React.Component {
           </Text>
           <Text style={this.style.text}>
             {str2jsx(
-              t`For further information, check out our website |link:https://hathor.network/|.`,
-              { link: (x, i) => <Link key={i} href='https://hathor.network/'>{x}</Link> }
+              t`For further information, check out our website |link:htts://www.ninaduong.com/|.`,
+              { link: (x, i) => <Link key={i} href='http://ninaduong.com/'>{x}</Link> }
             )}
           </Text>
 
           <Text style={this.style.title}>MIT License</Text>
-          <Text style={this.style.text}>Copyright 2019 Hathor Labs</Text>
+          <Text style={this.style.text}>Copyright 2020 Nina Duong Haute Couture</Text>
           <Text style={this.style.text}>
             Permission is hereby granted, free of charge, to any person obtaining a copy of this
             {' '}software and associated documentation files (the &quot;Software&quot;), to deal in
