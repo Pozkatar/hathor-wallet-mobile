@@ -29,7 +29,7 @@ export const _IS_MULTI_TOKEN = false;
  * {
  *   name: 'ND Coin',
  *   symbol: 'NINAC',
- *   uid: '000003a3b261e142d3dfd84970d3a50a93b5bc3a66a3b6ba973956148a3eb824'
+ *   uid: '000000004a3caf4539589350c7f4d8edd006ab1c99e99cff5fc4acd8bdd28ecb'
  * }
  */
 export const _DEFAULT_TOKEN = hathorLib.constants.HATHOR_TOKEN_CONFIG;
